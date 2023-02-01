@@ -67,7 +67,7 @@ def insert_email(name, email):
     # if user input are None (null) give warning
     if len(name) == 0 or len(email) == 0:
         response = 'Username or email can not be empty!!'
-    # if there is no same user name in the db, then insert the new one
+    # if there is no same user me in the db, then insert the new one
     elif not any(result):
         insert = f"""
         INSERT INTO users
